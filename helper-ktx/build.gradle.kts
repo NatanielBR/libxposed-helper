@@ -11,7 +11,6 @@ android {
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
     }
 
     buildFeatures {
@@ -50,7 +49,7 @@ android {
 
 dependencies {
     compileOnly("androidx.annotation:annotation:1.5.0")
-    compileOnly("io.github.libxposed:api:100")
+    compileOnly("com.github.NatanielBR:libxposed_api:100-17122025")
     implementation(project(":helper"))
 }
 

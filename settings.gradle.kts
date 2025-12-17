@@ -5,7 +5,7 @@ pluginManagement {
         mavenCentral()
     }
     plugins {
-        id("com.android.library") version "7.4.1"
+        id("com.android.library") version "8.7.0"
         id("org.jetbrains.kotlin.android") version "1.7.20"
     }
 }
@@ -17,6 +17,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         mavenLocal()
+        maven(url = "https://jitpack.io")
     }
 }
 rootProject.name = "helper"
